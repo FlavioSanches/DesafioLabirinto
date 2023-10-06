@@ -2,19 +2,19 @@
 #include <stdlib.h>
 #include "fila_p.h"
 
-/*A:
-- O programa deveria ler arquivos com labirintos de tamanho 7 a 50
-- O programa não foi feito para ler qualquer arquivo com um labirinto do tamanho especificado
-- A função anotar deveria estar em outro arquivo sem ser o TAD fila
-*/
+#define MAX 7
 
-#define MAX 7   //A: Por que 7?
+
+
+    
     
 //definição da estrutura da fila de pontos
+
 
 int main(){
 
     ponto2D *p1 = criar();
+     
 
     FILE* arq_leitura1 = fopen("labirinto_entrada.txt", "r"); // Abrir o arquivo em mode de leituira
     if(arq_leitura1 == NULL){
@@ -47,10 +47,8 @@ int main(){
         exit(0);
     }
 
-    int caractere;  //A: Deveria ser do tipo caractere
+    int caractere;
     //pecorre o arquivo de entrada e escreve no arquivo de saida -1 para # e 0 para .
-    
-    //A: Por que faz isto? Poderia ter armazenado diretamente na matriz
     while ((caractere = fgetc(arq_entrada)) != EOF) {
         if (caractere == '#') {
             fprintf(arq_saida , "-1");

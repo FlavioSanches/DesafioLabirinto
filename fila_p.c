@@ -61,7 +61,6 @@ bool vazia(ponto2D* P) {
     return false;
 }
 
-//A: Deveria estar em outro arquivo
 void Anotar( ponto2D* P,int L[MAX][MAX]) {
     
     L[1][1] = 1;//comecar  com o valor 1 na posição L[1][1] para tratar o erro de começar com o valor 0 na posição L[1][1]
