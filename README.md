@@ -1,8 +1,11 @@
 # DesafioLabirinto
 
 Aluno: Flávio Alves Sanches
+
 Curso: Engenharia de Computação
+
 Displina: Laboratorio de Estrutura de Dados
+
 Periodo: 2º
 
 Professor: Anderson Grandi Pires
@@ -12,7 +15,8 @@ Projeto Pratico: Melhor (menor) caminho em um labirinto
 Linguagem utilizada : C
 
 ***Descrição***
- executada a anotação do labirinto,para encontrar um menor caminho, na matriz L o número mínimo de passos necessários para atingir cada uma das posições do labirinto, a partir da entrada.
+
+Executada a anotação do labirinto,para encontrar um menor caminho, na matriz L o número mínimo de passos necessários para atingir cada uma das posições do labirinto, a partir da entrada.
 
 ***Procedimento***
 
@@ -22,6 +26,9 @@ para uma fila de cordenadas x e y desenvolvendo o algoritmo de anotar a matriz c
 de entrada. 
 
 ***Copilação***
+
 Compilação: gcc gerar_labirinto.c fila_p.c
+
 Execução no Windows: ./a.exe
+
 Execução no Linux: ./a.out
